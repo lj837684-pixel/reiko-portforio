@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nail Salon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="logo">Nail Salon</div>
+        <button class="hamburger" aria-label="メニュー" aria-expanded="false">
+            <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+        </button>
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- メインビジュアル -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="reveal">Welcome to Nail Salon</h1>
+            <p class="hero-subtitle reveal">指先から輝く毎日を</p>
+            <a href="#contact" class="btn-reservation reveal">ご予約はこちらから</a>
+        </div>
+        <div class="hero-image">
+            <img src="hands.jpg" alt="ネイルを施した手と花">
+        </div>
+    </section>
+
+    <!-- サロン内観画像 -->
+    <div class="salon-interior reveal">
+        <img src="room.jpg" alt="サロンの内観">
+    </div>
+
+    <!-- メニューセクション -->
+    <section id="menu" class="section menu-section">
+        <h2 class="section-title">Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item reveal">
+                <img src="nail1.jpg" alt="ネイルデザイン">
+                <p>ネイルデザイン<br><span>¥5,500</span></p>
+            </div>
+            <div class="menu-item">
+                <img src="nail2.jpg" alt="定額デザイン">
+                <p>定額デザイン<br><span>¥6,000</span></p>
+            </div>
+            <div class="menu-item">
+                <img src="nail3.jpg" alt="フットデザイン">
+                <p>フットデザイン<br><span>¥6,500</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ギャラリーセクション -->
+    <section id="gallery" class="section gallery-section">
+        <h2 class="section-title">Gallery</h2>
+        <div class="gallery-grid">
+            <img class="reveal" src="nail4.jpg" alt="ギャラリー画像1">
+            <img class="reveal" src="nail5.jpg" alt="ギャラリー画像2">
+            <img class="reveal" src="nail6.jpg" alt="ギャラリー画像3">
+            <img class="reveal" src="nail7.jpg" alt="ギャラリー画像4">
+            <img class="reveal" src="nail8.jpg" alt="ギャラリー画像5">
+            <img class="reveal" src="nail9.jpg" alt="ギャラリー画像6">
+        </div>
+    </section>
+
+    <!-- コンタクト・店舗情報セクション -->
+    <section id="contact" class="contact-section">
+        <div class="contact-info">
+            <div class="contact-col">
+                <h3>Contact</h3>
+                <p>TEL 090-8580-9969</p>
+            </div>
+            <div class="contact-col hours">
+                <h3>営業時間</h3>
+                <p>10:00〜18:00</p>
+            </div>
+            <div class="contact-col btn-wrap">
+                <a href="#" class="btn-inquiry">✉ お問い合わせ</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="footer-links">
+            <span>2026</span>
+            <span>&copy; Nail Salon</span>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
